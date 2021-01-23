@@ -1,4 +1,5 @@
 //YT LINK- https://www.youtube.com/watch?v=UPdSViixmDs
+// last digits of the no. are poped and added to the front of the ans
 
 bool isPalindrome(int x) 
 {
