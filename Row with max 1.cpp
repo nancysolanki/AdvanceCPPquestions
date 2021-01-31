@@ -1,6 +1,8 @@
 steps
 1)find index of first one in each row
 2)subtract it from total no. of coloumns
+
+
 class Solution{
 public:
    int binary(int si,int ei,vector<vector<int>> arr,int n)
