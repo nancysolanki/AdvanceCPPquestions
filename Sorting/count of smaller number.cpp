@@ -1,3 +1,4 @@
+//using merge sort algorithm
 class Solution {
 public:
     void merge(vector<int> &count, vector<pair<int, int> > &v, int left, int mid, int right) {
