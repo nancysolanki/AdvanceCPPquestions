@@ -1,4 +1,12 @@
+// Approach: 
+// For a Strongly Connected Graph, each vertex must have an in-degree and an out-degree of at least 1. Therefore, in order to make a graph strongly connected, each vertex must have an incoming edge and an outgoing edge. The maximum number of incoming edges and the outgoing edges required to make the graph strongly connected is the minimum edges required to make it strongly connected. 
+// Follow the steps below to solve the problem: 
 
+//     Find the count of in-degrees and out-degrees of each vertex of the graph, using DFS.
+//     If the in-degree or out-degree of a vertex is greater than 1, then consider it as only 1.
+//     Count the total in-degree and out-degree of the given graph.
+//     The minimum number of edges required to make the graph strongly connected is then given by max(N-totalIndegree, N-totalOutdegree).
+//     Print the count of minimum edges as the result.
 #include <bits/stdc++.h>
 using namespace std;
 
